@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 7px;
+    background: #ffff;
+    border: 1px solid #e2e8f0;
+    margin-top: 35px;
+    border-radius: 999px;
+    margin-left: 84px;
+    margin-right: 84px;
+}
+
+.logo{
+    font-weight: 700;
+    padding: 8px 16px;
+    border-radius: 999px;
+}
+.nav-links a {
+  margin: 0 14px;
+  text-decoration: none;
+  color: #475569;
+  font-size: 14px;
+}
+.nav-actions button {
+  margin-left: 10px;
+}
+.btn-outline {
+  padding: 14px 16px;
+  border-radius: 999px;
+  border: 1px solid #e2e8f0;
+  background: white;
+  color: #475569;
+}
+
+.btn-primary {
+  padding: 14px 21px;
+  border-radius: 999px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding-right: 19px;
+}
+.container{
+    padding: 40px;
+    margin-left: 51px;
+    margin-top: 39px;
+    margin-right: 5opx;
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+.subtitle {
+  color: #64748b;
+  margin-bottom: 20px;
+}
+ .filter-btn {
+  background:#ffff;
+  color: #2563eb;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  border: 1px solid #2563eb ;
+  margin-top: 15px;  
+  cursor: pointer;
+  display: inline-flex;          
+  align-items: center;           
+  gap: 8px;       
+ }
+
+ .filter-box {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  border: 1px solid #e2e8f0;
+}
+
+.filter-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.filter-row label {
+  font-size: 13px;
+  color: #64748b;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.filter-row input,
+.filter-row select {
+  width: 100%;
+  padding: 10px;
+  font-size: 13px;
+  color: #64748b;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+.heading-service{
+   font-size: 11px;
+   color: #64748b;
+   margin-top:8px ;
+
+}
+
+.services {
+  margin-top: 15px;
+}
+
+/* .services span {
+  display: inline-block;
+  padding: 7px 19px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  font-size: 12px;
+  color: #64748b
+  
+
+} */
+.services span {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.result-text strong{
+    font-size: 14px;
+    color: #64748b;
+    margin: 0 6px;
+}
+
+.result-text{
+    font-size: 14px;
+    color: #64748b;
+    padding-top:20px
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 90px;
+}
+
+.card {
+  width: 320px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  margin-top: 15px;
+}
+
+.card-image {
+  background: #eaf0fb;
+  height: 257px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  background: #aeb7c5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar i {
+  color: white;
+  font-size: 28px;
+}
+
+
+.card-body {
+  padding: 16px;
+}
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.rating {
+  background: #fff7cc;
+  color: #a16207;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+
+.location {
+  font-size: 13px;
+  color: #6b7280;
+  margin: 6px 0;
+}
+
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.tag {
+  background: #ede9fe;
+  color: #6d28d9;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+
+
+.meta {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  color: #6b7280;
+  margin: 10px 0;
+}
+
+
+.availability {
+  background: #ecfdf5;
+  color: #065f46;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+
+.view-btn {
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background: #1d4ed8;
+}
