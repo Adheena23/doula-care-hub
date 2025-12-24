@@ -435,6 +435,8 @@ h1 {
 
   .nav-actions button {
     width: 100%;
+    margin-left: 0px;
+    padding-left: 15px;
   }
 
   /* Container spacing */
