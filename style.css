@@ -6,7 +6,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 body { 
@@ -379,7 +379,9 @@ h1 {
     gap: 12px;
     border-radius: 20px;   
     overflow: visible; 
-    padding: 10px 16px;
+    padding: 32px 24px;
+    margin-left: 13px;   /* ✅ controls left gap */
+    margin-right: 13px; 
 
   }
   
