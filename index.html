@@ -6,23 +6,36 @@
     <title>Find a Doula</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <!-- navbar -->
  <header class="navbar">
-    <div class="logo">Doula Care Hub</div>
+  <div class="logo">Doula Care Hub</div>
 
-    <nav class="nav-links">
-        <a href="services">Services</a>
-        <a href="Doula">Find a Doula</a>
-        <a href="about">About</a>
-        <a href="contact">Contact</a>
-    </nav>
-    <div class="nav-actions">
-        <button class="btn-outline">Login</button>
-        <button class="btn-primary">Enquiry Service</button>
-    </div>
- </header>
+  <nav class="nav-links" id="navMenu">
+    <a href="#">Services</a>
+    <a href="#">Find a Doula</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="nav-actions" id="navActions">
+    <button class="btn-outline">Login</button>
+    <button class="btn-primary">Enquiry Service</button>
+  </div>
+
+  <!-- Hamburger -->
+  <div class="hamburger" id="hamburger" aria-label="Menu" onclick="toggleMenu()">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="close-icon">×</span>
+  </div>
+</header>
+
  <!-- main container -->
 <main class="container">
     <h1>Find a Doula</h1>
@@ -168,12 +181,13 @@
 
             <div class="availability">
                 <i class="fa-regular fa-calendar"></i>
-                Next available: Nov 28, 2025
-            </div>
+                Next available:Nov 28, 2025
+                </div>
             <button class="view-btn">View Profile</button>
         </div>
     </div>
 </div>
 </main>
+
 </body>
 </html>
